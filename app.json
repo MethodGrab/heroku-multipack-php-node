@@ -1,0 +1,14 @@
+{
+  "name": "Heroku Multipack PHP & Node.js",
+  "description": "PHP / Nginx backend with Node.js frontend package management / build",
+  "repository": "https://github.com/MethodGrab/heroku-multipack-php-node",
+  "keywords": [ "php", "nodejs", "nginx", "node.js", "node" ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "heroku/php"
+    }
+  ]
+}

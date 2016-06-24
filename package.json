@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "heroku-multipack-php-node",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "node-sass public/assets/style/style.scss public/assets/build/style.css"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^3.8.0",
+    "normalize.css": "^4.1.1"
+  },
+  "engines": {
+    "node": "6.2.2",
+    "npm": ">=3"
+  }
+}

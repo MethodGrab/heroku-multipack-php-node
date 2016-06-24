@@ -1,0 +1,40 @@
+// ==========================================================================
+// $ App Styles
+// ==========================================================================
+
+*, *:before, *:after {
+	margin: 0;
+	padding: 0;
+}
+
+html                 { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: inherit; }
+
+body {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	line-height: 1.4;
+}
+
+.island {
+	border: 1px solid #ccc;
+	margin: 1em;
+	padding: 1em;
+}
+
+.alpha {
+	font-size: 2em;
+	margin: 0 0 0.6em;
+}
+
+p {
+	font-size: 1em;
+	margin: 0 0 1em;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+main {}

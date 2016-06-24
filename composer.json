@@ -1,0 +1,15 @@
+{
+	"name": "methodgrab/heroku-multipack-php-node",
+	"require": {
+		"php": "^7.0.0",
+		"monolog/monolog": "^1.19"
+	},
+	"autoload": {
+		"files": []
+	},
+	"scripts": {
+		"compile": [
+			"npm run build"
+		]
+	}
+}
